@@ -124,6 +124,40 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  transition: all .3s ease;
+}
+
+.header.header-white {
+  background-color: white;
+  color: black;
+}
+
+.header.header-white .bottom {
+  color: black;
+}
+
+.header .bottom img {
+  transition: all .3s ease;
+}
+
+.header .bottom img:first-child {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header.header-white .bottom img:first-child {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header .bottom img:last-child {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header.header-white .bottom img:last-child {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Top */
@@ -157,6 +191,7 @@ body {
 .header .bottom {
   color: white;
   padding: 1vw 0;
+  transition: all .3s ease;
 }
 
 .header .bottom .container {
@@ -180,14 +215,31 @@ body {
 .header-hamburger {
   margin-left: 1.45vw;
   margin-top: 1.2vw;
+  position: relative;
 }
 
 .header-hamburger img {
   width: 1vw;
 }
 
+.header-hamburger img:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header-logo {
+  position: relative;
+}
+
 .header-logo img {
   width: 6vw;
+}
+
+.header-logo img:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* Links */
@@ -211,8 +263,18 @@ body {
   margin-left: 2vw;
 }
 
+.header-icons ul li {
+  position: relative;
+}
+
 .header-icons img {
   height: 1.25vw;
+}
+
+.header-icons img:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 1023.98px) {

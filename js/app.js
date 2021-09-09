@@ -11,6 +11,23 @@ if (document.querySelector('.header .top .swiper')) {
   });
 }
 
+// Color Change
+const header = document.querySelector('.header');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0 && !header.classList.contains('inverted')) {
+    header.classList.add('header-white');
+  } else {
+    header.classList.remove('header-white');
+  }
+});
+
+if (window.scrollY > 0) {
+  header.classList.add('header-white');
+} else {
+  header.classList.remove('header-white');
+}
+
 /* #Banner
   ======================================================= */
 
