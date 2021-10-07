@@ -40,6 +40,30 @@ if (document.querySelector('.banner .swiper')) {
   });
 }
 
+/* #Home Features
+  ======================================================= */
+
+// Slider
+if (document.querySelector('.home-features .swiper')) {
+  new Swiper(".home-features .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        loop: true,
+      },
+      1024: {
+        slidesPerView: 4,
+        loop: false,
+      }
+    },
+    speed: 500,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
+}
+
 /* #Large Products Slider
   ======================================================= */
 
