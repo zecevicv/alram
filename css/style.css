@@ -1290,6 +1290,8 @@ body {
 .subscribe {
   margin-bottom: 3.5vw;
   text-align: center;
+  background-color: #F9F9F9;
+  padding: 3vw 0;
 }
 
 .subscribe .container {
@@ -1318,6 +1320,8 @@ body {
 @media (max-width: 1023.98px) {
   .subscribe {
     margin-bottom: 12vw;
+    background-color: transparent;
+    padding: 0;
   }
   
   .subscribe .container {
