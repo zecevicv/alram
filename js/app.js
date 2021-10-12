@@ -144,3 +144,20 @@ if (document.querySelector('.home-community .swiper')) {
     }
   });
 }
+
+/* #CS Navigation
+  ======================================================= */
+
+// Slider
+if (document.querySelector('.cs-navigation .swiper')) {
+  new Swiper(".cs-navigation .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 2.75,
+      },
+      1024: {
+        slidesPerView: 5,
+      }
+    }
+  });
+}
