@@ -161,3 +161,23 @@ if (document.querySelector('.cs-navigation .swiper')) {
     }
   });
 }
+
+/* #Posts Slider
+  ======================================================= */
+
+// Slider
+if (document.querySelector('.posts-slider .swiper')) {
+  new Swiper(".posts-slider .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1.25,
+      },
+      1024: {
+        slidesPerView: 4.25,
+      }
+    },
+    pagination: {
+      el: ".posts-slider .swiper-pagination",
+    },
+  });
+}
