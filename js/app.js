@@ -162,22 +162,73 @@ if (document.querySelector('.cs-navigation .swiper')) {
   });
 }
 
-/* #Posts Slider
+/* #Blog Navigation
   ======================================================= */
 
 // Slider
-if (document.querySelector('.posts-slider .swiper')) {
-  new Swiper(".posts-slider .swiper", {
+if (document.querySelector('.blog-navigation .swiper')) {
+  new Swiper(".blog-navigation .swiper", {
     breakpoints: {
       0: {
-        slidesPerView: 1.25,
+        slidesPerView: 2.75,
       },
       1024: {
-        slidesPerView: 4.25,
+        slidesPerView: 3,
       }
-    },
-    pagination: {
-      el: ".posts-slider .swiper-pagination",
-    },
+    }
+  });
+}
+
+/* #Posts Slider
+  ======================================================= */
+const postsSliders = document.querySelectorAll('.posts-slider .swiper');
+
+// Slider
+if (postsSliders) {
+  postsSliders.forEach((slider) => {
+    new Swiper(slider, {
+      navigation: {
+        nextEl: slider.closest('.posts-slider').querySelector('.next'),
+        prevEl: slider.closest('.posts-slider').querySelector('.prev')
+      },
+      pagination: {
+        el: slider.closest('.posts-slider').querySelector('.swiper-pagination'),
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1.25,
+        },
+        1024: {
+          slidesPerView: 4.25,
+        }
+      },
+    });
+  });
+}
+
+/* #Videos Slider
+  ======================================================= */
+const videosSliders = document.querySelectorAll('.videos-slider .swiper');
+
+// Slider
+if (videosSliders) {
+  videosSliders.forEach((slider) => {
+    new Swiper(slider, {
+      navigation: {
+        nextEl: slider.closest('.tab-panel').querySelector('.next'),
+        prevEl: slider.closest('.tab-panel').querySelector('.prev')
+      },
+      pagination: {
+        el: slider.closest('.tab-panel').querySelector('.swiper-pagination'),
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1.25,
+        },
+        1024: {
+          slidesPerView: 4.25,
+        }
+      },
+    });
   });
 }
