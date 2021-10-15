@@ -232,3 +232,25 @@ if (videosSliders) {
     });
   });
 }
+
+/* #Blog Navigation
+  ======================================================= */
+
+// Slider
+if (document.querySelector('.blog-gallery')) {
+  const thumbsSwiper = new Swiper(".blog-gallery .swiper-thumbs", {
+    loop: true,
+    slidesPerView: 4,
+    watchSlidesProgress: true,
+  });
+  new Swiper(".blog-gallery .swiper-gallery", {
+    loop: true,
+    navigation: {
+      nextEl: ".blog-gallery .swiper-button-next",
+      prevEl: ".blog-gallery .swiper-button-prev",
+    },
+    thumbs: {
+      swiper: thumbsSwiper,
+    },
+  });
+}
