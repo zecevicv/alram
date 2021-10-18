@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he-IL" dir="rtl">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Alram</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Style (Vendor) -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/elevate-framework.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body class="store-finder-page">
+
+  <!-- Popup Toggler -->
+  <a href="#" class="popup-toggler f-d-20 f-m-30" data-popup="#popup-step-1">
+    Toggle Popup
+  </a>
+
+  <!-- Popup -->
+  <div class="popup" id="popup-step-1">
+    <!-- Backdrop -->
+    <div class="popup-backdrop"></div>
+    <!-- Content -->
+    <div class="popup-content">
+      <!-- Close -->
+      <a href="#" class="popup-close f-d-22 f-m-34 medium">
+        <img src="img/icons/close-black.svg" alt="alram-icon">
+        סגור
+      </a>
+      <!-- Body -->
+      <h2 class="f-d-38 f-m-46 medium">איתור המוצר בסביבתך</h2>
+      <p class="f-d-18 f-m-30">המערכת תאתר את החנויות הקרובות ביותר עם המוצר שחיפשתם</p>
+      <input type="text" placeholder="הזינו עיר מגורים שלכם ובחרו מהרשימה" class="f-d-16 f-m-26">
+      <a href="#" class="btn btn-secondary">חפש</a>
+      <div class="product">
+        <img src="img/store-finder/product-img.png" alt="alram-img">
+        <p class="f-d-12 f-m-22 light">WOLMAN</p>
+        <p class="f-d-16 f-m-24 medium">צבע לעץ במראה חצי אטום</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script (Vendor) -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/elevate-framework.js"></script>
+
+  <!-- Script -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

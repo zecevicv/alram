@@ -1,5 +1,6 @@
 /* #Header
   ======================================================= */
+const body = document.querySelector('body');
 
 // Top Slider
 if (document.querySelector('.header .top .swiper')) {
@@ -14,18 +15,22 @@ if (document.querySelector('.header .top .swiper')) {
 // Color Change
 const header = document.querySelector('.header');
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 0 && !header.classList.contains('inverted')) {
+if (document.querySelector('.header')) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0 && !header.classList.contains('inverted')) {
+      header.classList.add('header-white');
+    } else {
+      header.classList.remove('header-white');
+    }
+  });
+}
+
+if (document.querySelector('.header')) {
+  if (window.scrollY > 0) {
     header.classList.add('header-white');
   } else {
     header.classList.remove('header-white');
   }
-});
-
-if (window.scrollY > 0) {
-  header.classList.add('header-white');
-} else {
-  header.classList.remove('header-white');
 }
 
 /* #Banner
@@ -252,5 +257,60 @@ if (document.querySelector('.blog-gallery')) {
     thumbs: {
       swiper: thumbsSwiper,
     },
+  });
+}
+
+/* #Popup
+  ======================================================= */
+const popups = document.querySelectorAll('.popup');
+const popupTogglers = document.querySelectorAll('.popup-toggler');
+const popupClosers = document.querySelectorAll('.popup-close');
+const popupBackdrops = document.querySelectorAll('.popup-backdrop');
+
+if (popups && popupTogglers) {
+  popups.forEach((popup) => {
+    gsap.set(popup, {
+      display: 'block'
+    });
+  });
+
+  popupTogglers.forEach((toggler) => {
+
+    toggler.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const popup = document.querySelector(toggler.dataset.popup);
+
+      body.classList.add('no-scroll');
+      popup.classList.add('show');
+    });
+  });
+}
+
+if (popupClosers) {
+  popupClosers.forEach((closer) => {
+    closer.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const popup = closer.closest('.popup');
+
+      body.classList.remove('no-scroll');
+      popup.classList.remove('show');
+
+    })
+  });
+}
+
+if (popupBackdrops) {
+  popupBackdrops.forEach((backdrop) => {
+    backdrop.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const popup = backdrop.closest('.popup');
+
+      body.classList.remove('no-scroll');
+      popup.classList.remove('show');
+
+    })
   });
 }
