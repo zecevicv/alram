@@ -3783,3 +3783,161 @@ body {
     margin-right: 2vw;
   }
 }
+
+/* #Video Type Page
+================================================== */
+.video-type-page {
+  padding-top: 9.375vw;
+}
+
+.video-type-page .videos-slider {
+  margin-bottom: 5.2vw;
+}
+
+.video-type {
+  margin-bottom: 5.2vw;
+}
+
+.video-type .heading {
+  text-align: center;
+  width: 37.81vw;
+  margin: 0 auto 1.5vw auto;
+}
+
+.video-type .heading h1 {
+  margin: 0 auto 1vw auto;
+  width: 25.41vw;
+}
+
+.video-type .body {
+  display: flex;
+  align-items: center;
+  padding-right: 23.75vw;
+}
+
+.video-type .video {
+  flex: 0 0 52.44vw;
+  position: relative;
+}
+
+.video-type .video .img img {
+  height: 26vw;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: .5vw;
+}
+
+.video-type .video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-type .video a img {
+  width: 4.68vw;
+}
+
+.video-type-products {
+  padding-right: 4.4vw;
+}
+
+.video-type-products h2 {
+  margin-bottom: 2vw;
+}
+
+.video-type-product {
+  display: flex;
+  align-items: center;
+}
+
+.video-type-product:not(:last-child) {
+  margin-bottom: 3.5vw;
+}
+
+.video-type-product .price {
+  margin-top: 1.5vw;
+}
+
+.video-type-product .price s {
+  margin-right: .75vw;
+}
+
+.video-type-product .img img {
+  width: 3.6vw;
+  margin-left: 1.8vw;
+}
+
+@media (max-width: 1023.98px) {
+  .video-type-page {
+    padding-top: 37.33vw;
+  }
+  
+  .video-type-page .videos-slider {
+    margin-bottom: 20vw;
+  }
+  
+  .video-type {
+    margin-bottom: 18vw;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .video-type .heading {
+    width: 100%;
+    margin: 0 auto 9vw auto;
+  }
+  
+  .video-type .heading h1 {
+    margin: 0 auto 2vw auto;
+    width: 100%;
+  }
+
+  .video-type .heading p {
+    padding: 0 5%;
+    margin: 0 auto;
+  }
+  
+  .video-type .body {
+    display: block;
+    padding-right: 0;
+    padding: 0 4%;
+  }
+  
+  .video-type .video .img img {
+    height: 48.13vw;
+    border-radius: 1.33vw;
+  }
+
+  .video-type .video a img {
+    width: 15.33vw;
+  }
+  
+  .video-type-products {
+    padding-right: 0;
+    margin-top: 7.33vw;
+  }
+  
+  .video-type-products h2 {
+    margin-bottom: 5.33vw;
+  }
+  
+  .video-type-product:not(:last-child) {
+    margin-bottom: 8vw;
+  }
+  
+  .video-type-product .price {
+    margin-top: 4vw;
+  }
+
+  .video-type-product .price s {
+    margin-right: 2vw;
+  }
+  
+  .video-type-product .img img {
+    width: 18vw;
+    margin-left: 10vw;
+  }
+}
