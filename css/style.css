@@ -3976,3 +3976,153 @@ body {
     margin-top: 4vw;
   }
 }
+
+/* #About Page
+================================================== */
+.about-page .cs-contact {
+  margin-bottom: 5.2vw;
+}
+
+.about-page .home-community {
+  padding: 0 0 6.25vw;
+}
+
+.about-page .banner span {
+  display: block;
+}
+
+@media (max-width: 1023.98px) {
+  .about-page .banner br {
+    display: none;
+  }
+}
+
+/* #About Text
+================================================== */
+.about-text {
+  padding: 4.68vw 0;
+  text-align: center;
+}
+
+.about-text .container {
+  width: 48.2%;
+}
+
+.about-text h2 {
+  line-height: 1.25;
+  margin-bottom: 1.8vw;
+}
+
+.about-text p {
+  margin-bottom: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .about-text {
+    padding: 10.66vw 0 15.33vw 0;
+  }
+  
+  .about-text .container {
+    width: 82.13%;
+  }
+  
+  .about-text h2 {
+    margin-bottom: 4vw;
+  }
+  
+  .about-text p {
+    margin-bottom: 15.33vw;
+  }
+}
+
+/* #Premium Brands
+================================================== */
+.premium-brands {
+  padding: 0 0 3.65vw 0;
+}
+
+.premium-brands .container {
+  width: 70%;
+}
+
+.premium-brands h2 {
+  text-align: center;
+  margin-bottom: 1.8vw;
+}
+
+.premium-brands .media {
+  position: relative;
+}
+
+.premium-brands .img img,
+.premium-brands .img picture,
+.premium-brands .img video {
+  width: 100%;
+  height: 39.375vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.premium-brands .text {
+  position: absolute;
+  top: 5.88vw;
+  right: 3.5vw;
+}
+
+.premium-brands .text ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 17.96vw;
+}
+
+.premium-brands .text li {
+  flex: 0 0 7.2vw;
+  margin-bottom: 1vw;
+}
+
+.premium-brands .text img {
+  width: 100%;
+  height: 3.8vw;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+@media (max-width: 1023.98px) {
+  .premium-brands {
+    padding: 0 0 9vw 0;
+  }
+  
+  .premium-brands .container {
+    width: 100%;
+  }
+  
+  .premium-brands h2 {
+    margin-bottom: 6vw;
+  }
+  
+  .premium-brands .img img,
+  .premium-brands .img picture,
+  .premium-brands .img video {
+    height: 150vw;
+  }
+  
+  .premium-brands .text {
+    position: static;
+    padding-top: 15.33vw;
+  }
+  
+  .premium-brands .text ul {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .premium-brands .text li {
+    flex: 0 0 29.73vw;
+    margin-bottom: 4.66vw;
+  }
+  
+  .premium-brands .text img {
+    height: 15.73vw;
+  }
+}
