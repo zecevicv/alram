@@ -133,4 +133,13 @@
   .woocommerce .woocommerce-order-details {
     margin-bottom: 10vw;
   }
+
+  .woocommerce-account .woocommerce .ywcars_button_refund_container {
+    margin-left: 0!important;
+    margin-bottom: 4vw!important;
+  }
+
+  .woocommerce-account .woocommerce table .ywcars_button_refund_container {
+    margin-bottom: 0!important;
+  }
 }
