@@ -19,6 +19,11 @@
   margin-bottom: 1vw;
 }
 
+.woocommerce-order-details table.woocommerce-table thead th.product-name,
+.woocommerce-order-details table.woocommerce-table thead th.product-total {
+  padding-bottom: 0;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
