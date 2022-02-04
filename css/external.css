@@ -11,6 +11,7 @@
 @media (max-width: 1023.98px) {
   .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr {
     position: relative;
+    padding-bottom: 10vw;
   }
   
   .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr td:last-child {
