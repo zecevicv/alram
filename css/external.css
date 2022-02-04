@@ -142,4 +142,9 @@
   .woocommerce-account .woocommerce table .ywcars_button_refund_container {
     margin-bottom: 0!important;
   }
+
+  .woocommerce-order-details table.woocommerce-table tfoot th {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
