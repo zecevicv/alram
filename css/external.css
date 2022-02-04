@@ -1,4 +1,4 @@
-/* #Overrides
+/* #Overrides (My Orders)
 ================================================== */
 .woocommerce-MyAccount-content table.woocommerce-orders-table .woocommerce-button {
   background-color: transparent!important;
@@ -8,12 +8,14 @@
   color: black;
 }
 
-.woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr {
-  position: relative;
-}
-
-.woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr td:last-child {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+@media (max-width: 1023.98px) {
+  .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr {
+    position: relative;
+  }
+  
+  .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr td:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
