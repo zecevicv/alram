@@ -83,6 +83,10 @@
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+.woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+  background-color: white!important;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
