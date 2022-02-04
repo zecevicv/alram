@@ -69,6 +69,10 @@
   margin-bottom: 1vw;
 }
 
+.page-content-wrapper .woocommerce .woocommerce-MyAccount-content {
+  margin-top: 2vw;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
