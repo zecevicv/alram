@@ -78,14 +78,6 @@
   border: none;
 }
 
-.woocommerce table.shop_table tbody:first-child tr:first-child th {
-  border: none;
-}
-
-.woocommerce table.shop_table td {
-  border-bottom: 1px solid rgba(0,0,0,.1);
-}
-
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
