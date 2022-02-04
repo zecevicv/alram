@@ -15,6 +15,10 @@
   background-size: auto 2.25rem;
 }
 
+.woocommerce .woocommerce-order-details {
+  display: flex;
+}
+
 .woocommerce-MyAccount-content .data-order-block {
   margin-bottom: 1vw;
 }
