@@ -100,6 +100,11 @@
     margin-bottom: 2vw;
   }
 
+  .account-navigation-container ul li a {
+    font-size: 0;
+    color: transparent;
+  }
+
   .account-navigation-container ul li a:before {
     width: 14.66vw;
     height: 14.66vw;
