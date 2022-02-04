@@ -1,0 +1,5 @@
+/* #Overrides
+================================================== */
+.woocommerce-MyAccount-content table.woocommerce-orders-table .woocommerce-button {
+  background-color: black;
+}
