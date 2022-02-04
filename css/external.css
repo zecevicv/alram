@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: flex-end;
   color: black;
+  padding: 0!important;
 }
 
 .account-navigation-container ul li.woocommerce-MyAccount-navigation-link--refund-requests a:before {
