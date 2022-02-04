@@ -129,7 +129,8 @@
     height: 9.5vw;
   }
 
-  .woocommerce .woocommerce-order-details > table {
+  .woocommerce .woocommerce-order-details > table,
+  .woocommerce .woocommerce-order-details {
     margin-bottom: 10vw;
   }
 }
