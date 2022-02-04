@@ -8,6 +8,13 @@
   color: black;
 }
 
+.account-navigation-container ul li.woocommerce-MyAccount-navigation-link--refund-requests a:before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='31.747' height='33.173' viewBox='0 0 31.747 33.173'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_2098' data-name='Rectangle 2098' width='31.747' height='33.173' fill='%23010101'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Group_7815' data-name='Group 7815' transform='translate(-765 -365)'%3E%3Cg id='Group_7799' data-name='Group 7799' transform='translate(765 365)'%3E%3Cg id='Group_7801' data-name='Group 7801' clip-path='url(%23clip-path)'%3E%3Cpath id='Path_19911' data-name='Path 19911' d='M.738,8.8A.74.74,0,0,0,.8,8.974a.729.729,0,0,0,.041.084A.741.741,0,0,0,.951,9.2a.756.756,0,0,0,.072.064.711.711,0,0,0,.075.066.711.711,0,0,0,.082.028.737.737,0,0,0,.088.03.73.73,0,0,0,.187.034c.009,0,.017,0,.026,0a.712.712,0,0,0,.105-.008L6.8,8.7a.762.762,0,0,0-.209-1.51l-3.548.49A15.047,15.047,0,1,1,7.721,29.643a.763.763,0,1,0-.763,1.321,16.341,16.341,0,0,0,8.193,2.21A16.585,16.585,0,1,0,1.964,6.583L1.518,3.349a.762.762,0,0,0-1.51.209l.72,5.209c0,.012.009.021.011.033' transform='translate(0 0)' fill='%23010101'/%3E%3C/g%3E%3C/g%3E%3Cg id='Cart' transform='translate(774 373)'%3E%3Cpath id='bag' d='M79.008,17.461H69.4a1.456,1.456,0,0,1-1.449-1.583l.886-10.04a1.447,1.447,0,0,1,1.449-1.327h.9V3.019a3.019,3.019,0,0,1,6.039,0V4.511h.9a.291.291,0,1,1,0,.582h-.9V6.4a.291.291,0,0,1-.582,0V5.093h-3.82a.291.291,0,1,1,0-.582h3.82V3.019a2.437,2.437,0,0,0-4.874,0V6.4a.291.291,0,0,1-.582,0V5.093h-.9a.868.868,0,0,0-.87.8l-.886,10.04a.872.872,0,0,0,.87.95h9.607a.872.872,0,0,0,.87-.95l-.886-10.04a.291.291,0,1,1,.58-.051l.886,10.04A1.456,1.456,0,0,1,79.008,17.461Zm-6.477-2.51h-2.11a.291.291,0,1,0,0,.582h2.11a.291.291,0,1,0,0-.582Zm0-1.455h-2.11a.291.291,0,1,0,0,.582h2.11a.291.291,0,1,0,0-.582Z' transform='translate(-67.946 0)' stroke='%23000' stroke-width='0.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
