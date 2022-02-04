@@ -124,4 +124,8 @@
   .account-navigation-container .woocommerce-MyAccount-navigation {
     padding-bottom: 0;
   }
+
+  .woocommerce-order-details table.woocommerce-table tbody .product-name .button {
+    height: 9.5vw;
+  }
 }
