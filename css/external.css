@@ -74,6 +74,10 @@
   margin-top: 2vw;
 }
 
+.woocommerce table.shop_table {
+  border: none;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
