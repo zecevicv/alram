@@ -55,7 +55,8 @@
   padding-bottom: 0;
 }
 
-.woocommerce-order-details table.woocommerce-table tbody .product-name .button {
+.woocommerce-order-details table.woocommerce-table tbody .product-name .button,
+.woocommerce-account .woocommerce a.button {
   height: 1.5vw;
   line-height: 1;
   display: inline-flex;
