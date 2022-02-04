@@ -7,3 +7,13 @@
   justify-content: flex-end;
   color: black;
 }
+
+.woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr {
+  position: relative;
+}
+
+.woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr td:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
