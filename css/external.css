@@ -140,7 +140,7 @@
   }
 
   .woocommerce-order-details table.woocommerce-table tbody .product-name .button,
-  .woocommerce-account .woocommerce a.button {
+  .woocommerce-account .woocommerce p:not(.order-again) a.button {
     height: 9.5vw;
   }
 
