@@ -94,4 +94,8 @@
     font-size: 3.2vw;
     font-weight: 500;
   }
+  
+  .before-account-navigation-block .current-user-label {
+    font-size: 6vw;
+  }
 }
