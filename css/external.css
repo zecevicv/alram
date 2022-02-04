@@ -35,6 +35,10 @@
 }
 
 .woocommerce .woocommerce-order-details > table {
+  margin-bottom: 1.8vw;
+}
+
+.woocommerce .woocommerce-order-details > table {
   flex: 0 0 100%;
 }
 
