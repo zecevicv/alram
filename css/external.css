@@ -1,7 +1,7 @@
 /* #Overrides
 ================================================== */
 .woocommerce-MyAccount-content table.woocommerce-orders-table .woocommerce-button {
-  background-color: transparent;
+  background-color: transparent!important;
   display: inline-flex;
   align-items: center;
   justify-content: flex-end;
