@@ -30,6 +30,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: auto;
 }
 
 @media (max-width: 1023.98px) {
