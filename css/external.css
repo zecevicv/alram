@@ -29,6 +29,10 @@
   margin: 0!important;
 }
 
+.woocommerce-account .woocommerce .ywcars_button_refund_container {
+  margin-left: 1.5vw!important;
+}
+
 .woocommerce .woocommerce-order-details > table {
   flex: 0 0 100%;
 }
