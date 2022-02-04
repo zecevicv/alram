@@ -22,7 +22,8 @@
   justify-content: center;
 }
 
-.woocommerce-account .woocommerce a.button {
+.woocommerce-account .woocommerce a.button,
+.woocommerce-account .woocommerce .order-again {
   margin: 0;
 }
 
