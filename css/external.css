@@ -31,6 +31,7 @@
   align-items: center;
   justify-content: center;
   width: auto;
+  padding: 0 1rem;
 }
 
 @media (max-width: 1023.98px) {
