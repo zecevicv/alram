@@ -112,4 +112,8 @@
     margin-bottom: 0;
     background-size: auto 1.5625rem;
   }
+
+  .account-navigation-container .woocommerce-MyAccount-navigation {
+    padding-bottom: 0;
+  }
 }
