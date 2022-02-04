@@ -15,6 +15,10 @@
   background-size: auto 2.25rem;
 }
 
+.woocommerce-MyAccount-content .data-order-block {
+  margin-bottom: 1vw;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
