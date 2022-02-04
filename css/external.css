@@ -23,7 +23,9 @@
 }
 
 .woocommerce-account .woocommerce a.button,
-.woocommerce-account .woocommerce .order-again {
+.woocommerce-account .woocommerce .order-again,
+.woocommerce-account .woocommerce .ywcars_button_refund_container,
+.woocommerce-account .woocommerce .ywcars_button_refund {
   margin: 0;
 }
 
