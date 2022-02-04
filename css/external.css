@@ -9,6 +9,10 @@
 }
 
 @media (max-width: 1023.98px) {
+  .woocommerce table.my_account_orders {
+    font-size: 3.2vw;
+  }
+
   .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr {
     position: relative;
     padding-bottom: 10vw;
@@ -30,6 +34,6 @@
     height: auto;
     margin: 0;
     padding: 0;
-    font-size: .85em;
+    font-size: 3.2vw;
   }
 }
