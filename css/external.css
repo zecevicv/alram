@@ -57,7 +57,7 @@
 }
 
 .woocommerce-order-details table.woocommerce-table tbody .product-name .button,
-.woocommerce-account .woocommerce a.button {
+.woocommerce-account .woocommerce :not(.order-again) a.button {
   height: 1.5vw;
   line-height: 1;
   display: inline-flex;
