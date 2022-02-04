@@ -18,4 +18,8 @@
     bottom: 0;
     right: 0;
   }
+
+  .woocommerce-MyAccount-content table.woocommerce-orders-table tr .woocommerce-orders-table__cell-order-actions a {
+    opacity: 1!important;
+  }
 }
