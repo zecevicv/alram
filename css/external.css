@@ -26,5 +26,8 @@
 
   .woocommerce-MyAccount-content table.woocommerce-orders-table tr .woocommerce-orders-table__cell-order-actions a {
     opacity: 1!important;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
 }
