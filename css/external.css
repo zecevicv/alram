@@ -97,6 +97,14 @@
   
   .before-account-navigation-block .current-user-label {
     font-size: 6vw;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
+  }
+
+  .account-navigation-container ul li a:before {
+    width: 14.66vw;
+    height: 14.66vw;
+    border-radius: 14.66vw;
+    margin-bottom: 0.9375rem;
+    background-size: auto 1.5625rem;
   }
 }
