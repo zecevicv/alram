@@ -23,8 +23,8 @@
   margin-bottom: 3.9vw;
 }
 
-.woocommerce-account .woocommerce a.button,
 .woocommerce-account .woocommerce .order-again,
+.woocommerce-account .woocommerce .order-again a,
 .woocommerce-account .woocommerce .ywcars_button_refund_container,
 .woocommerce-account .woocommerce .ywcars_button_refund {
   margin: 0!important;
