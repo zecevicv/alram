@@ -30,6 +30,10 @@
   margin: 0!important;
 }
 
+.woocommerce-account .woocommerce table .ywcars_button_refund {
+  margin: 0.9375rem 0!important;
+}
+
 .woocommerce-account .woocommerce .ywcars_button_refund_container {
   margin-left: 1.5vw!important;
 }
