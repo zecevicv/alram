@@ -79,6 +79,10 @@
   border: none;
 }
 
+.woocommerce-refund-requests .woocommerce table.shop_table {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
