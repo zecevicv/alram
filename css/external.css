@@ -97,5 +97,6 @@
   
   .before-account-navigation-block .current-user-label {
     font-size: 6vw;
+    margin-bottom: 4vw;
   }
 }
