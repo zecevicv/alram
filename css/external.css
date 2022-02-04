@@ -19,6 +19,10 @@
   display: flex;
 }
 
+.woocommerce .woocommerce-order-details > table {
+  flex: 0 0 100%;
+}
+
 .woocommerce-MyAccount-content .data-order-block {
   margin-bottom: 1vw;
 }
