@@ -298,4 +298,9 @@ span.ywcars_current_status {
   td.ywcars_refund_info_minor_cell {
     padding: 0!important;
   }
+
+  body textarea {
+    width: 90%;
+    border-radius: 2vw;
+  }
 }
