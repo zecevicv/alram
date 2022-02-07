@@ -165,107 +165,109 @@
 }
 
 /* Refund Requests */
-table.ywcars_refund_info {
-  width: 100%;
-  border-spacing: 0;
-  border: 1px solid #A8A8A8!important;
-  border-radius: .78vw;
-}
-
-table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
-  font-size: .73vw!important;
-}
-
-table.ywcars_refund_info tbody, 
-table.ywcars_refund_info td {
-  border: none!important;
-}
-
-body textarea {
-  width: 96%;
-  border-radius: .78vw;
-  border: 1px solid #A8A8A8;
-}
-
-.ywcars_refund_info_block_title {
-  margin-bottom: .5vw!important;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ywcars_message_shop_manager {
-  margin-left: 0;
-}
-
-.ywcars_refund_info_message_box {
-  background-color: white!important;
-  margin-bottom: 1.3vw!important;
-  border: none!important;
-  padding: 1.5vw 1.3vw 2.5vw 1.3vw!important;
-  width: 94%!important;
-  border-radius: .78vw;
-  box-shadow: 0 6px 12px rgba(0,0,0,.1);
-}
-
-td.ywcars_refund_info_minor_cell {
-  text-align: left!important;
-}
-
-span.ywcars_current_status.ywcars-new {
-  background-color: #F5F5F5!important;
-  margin-left: 20vw;
-}
-
-span.ywcars_current_status {
-  border-radius: 1.3vw!important;
-  padding: .5vw 2vw!important;
-}
-
-.ywcars_refund_info_minor_cell a {
-  height: 1.5vw;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  padding: 0 1rem;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 500px;
-}
-
-.ywcars_line_separator {
-  margin-bottom: 2.34vw!important;
-}
-
-.ywcars_message_shop_manager .ywcars_refund_info_message_author {
-  background-color: transparent!important;
-  color: black!important;
-  padding-right: 0!important;
-  padding-left: 0!important;
-  margin-left: 0!important;
-}
-
-.ywcars_refund_info_message_author {
-  font-size: .94vw!important;
-}
-
-.ywcars_refund_info_message_date {
-  float: left!important;
-  font-size: .73vw!important;
-}
-
-.ywcars_refund_info_message_body {
-  font-size: .94vw!important;
-  margin-top: .5vw!important;
-}
-
-.ywcars_attachments_title {
-  font-size: .94vw!important;
-}
-
-.ywcars_message_shop_manager .ywcars_attachments_line_separator {
-  margin-left: 0!important;
+@media (min-width: 1024px) {
+  table.ywcars_refund_info {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #A8A8A8!important;
+    border-radius: .78vw;
+  }
+  
+  table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
+    font-size: .73vw!important;
+  }
+  
+  table.ywcars_refund_info tbody, 
+  table.ywcars_refund_info td {
+    border: none!important;
+  }
+  
+  body textarea {
+    width: 96%;
+    border-radius: .78vw;
+    border: 1px solid #A8A8A8;
+  }
+  
+  .ywcars_refund_info_block_title {
+    margin-bottom: .5vw!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ywcars_message_shop_manager {
+    margin-left: 0;
+  }
+  
+  .ywcars_refund_info_message_box {
+    background-color: white!important;
+    margin-bottom: 1.3vw!important;
+    border: none!important;
+    padding: 1.5vw 1.3vw 2.5vw 1.3vw!important;
+    width: 94%!important;
+    border-radius: .78vw;
+    box-shadow: 0 6px 12px rgba(0,0,0,.1);
+  }
+  
+  td.ywcars_refund_info_minor_cell {
+    text-align: left!important;
+  }
+  
+  span.ywcars_current_status.ywcars-new {
+    background-color: #F5F5F5!important;
+    margin-left: 20vw;
+  }
+  
+  span.ywcars_current_status {
+    border-radius: 1.3vw!important;
+    padding: .5vw 2vw!important;
+  }
+  
+  .ywcars_refund_info_minor_cell a {
+    height: 1.5vw;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 500px;
+  }
+  
+  .ywcars_line_separator {
+    margin-bottom: 2.34vw!important;
+  }
+  
+  .ywcars_message_shop_manager .ywcars_refund_info_message_author {
+    background-color: transparent!important;
+    color: black!important;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-left: 0!important;
+  }
+  
+  .ywcars_refund_info_message_author {
+    font-size: .94vw!important;
+  }
+  
+  .ywcars_refund_info_message_date {
+    float: left!important;
+    font-size: .73vw!important;
+  }
+  
+  .ywcars_refund_info_message_body {
+    font-size: .94vw!important;
+    margin-top: .5vw!important;
+  }
+  
+  .ywcars_attachments_title {
+    font-size: .94vw!important;
+  }
+  
+  .ywcars_message_shop_manager .ywcars_attachments_line_separator {
+    margin-left: 0!important;
+  }
 }
