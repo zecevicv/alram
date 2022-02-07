@@ -256,3 +256,8 @@ span.ywcars_current_status {
   float: none!important;
   font-size: .73vw!important;
 }
+
+.ywcars_refund_info_message_body {
+  font-size: .94vw!important;
+  margin-top: .5vw!important;
+}
