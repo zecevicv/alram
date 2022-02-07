@@ -176,3 +176,8 @@ table.ywcars_refund_info tbody,
 table.ywcars_refund_info td {
   border: none!important;
 }
+
+body textarea {
+  width: 100%;
+  border-radius: .78vw;
+}
