@@ -365,13 +365,13 @@ div.pp_pic_holder {
 }
 
 .pp_content_container #ywcars_submit_button {
-  height: 1.5vw;
+  height: 2.6vw;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: auto;
-  padding: 0 1rem;
+  padding: 0 4.7rem;
   background-color: black;
   color: white;
   text-decoration: none;
