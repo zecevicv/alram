@@ -203,3 +203,7 @@ body textarea {
   border-radius: .78vw;
   box-shadow: 0 6px 12px rgba(0,0,0,.1);
 }
+
+td.ywcars_refund_info_minor_cell {
+  text-align: left!important;
+}
