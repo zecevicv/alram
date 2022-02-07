@@ -286,4 +286,8 @@ span.ywcars_current_status {
   table.ywcars_refund_info td {
     display: block;
   }
+
+  span.ywcars_current_status.ywcars-new {
+    float: none!important;
+  }
 }
