@@ -384,3 +384,12 @@ div.pp_pic_holder {
   border-radius: 500px;
   margin: 0 auto;
 }
+
+div.pp_woocommerce .pp_close {
+  background-color: white;
+  top: 1.3vw;
+  right: auto;
+  left: 1.3vw;
+  width: 1vw;
+  height: 1vw;
+}
