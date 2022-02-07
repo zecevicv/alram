@@ -209,14 +209,10 @@ td.ywcars_refund_info_minor_cell {
 }
 
 span.ywcars_current_status.ywcars-new {
-  background-color: #F5F5F5;
+  background-color: #F5F5F5!important;
 }
 
 span.ywcars_current_status {
-  border-radius: 1.3vw;
-  padding: .5vw 2vw;
-}
-
-span.ywcars_current_status span {
-  display: block;
+  border-radius: 1.3vw!important;
+  padding: .5vw 2vw!important;
 }
