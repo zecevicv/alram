@@ -346,10 +346,6 @@ div.pp_overlay {
   background: white!important;
 }
 
-div.pp_pic_holder {
-  width: 33.5%!important;
-}
-
 .pp_content {
   width: auto!important;
 }
@@ -400,4 +396,10 @@ div.pp_woocommerce .pp_close:before {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-size: contain;
+}
+
+@media (min-width: 1024px) {
+  div.pp_pic_holder {
+    width: 33.5%!important;
+  }
 }
