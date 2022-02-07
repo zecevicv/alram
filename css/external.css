@@ -333,3 +333,8 @@ span.ywcars_current_status {
     border-radius: 2vw;
   }
 }
+
+/* Popup */
+div.pp_overlay {
+  background: white;
+}
