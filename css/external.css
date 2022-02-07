@@ -336,5 +336,5 @@ span.ywcars_current_status {
 
 /* Popup */
 div.pp_overlay {
-  background: white;
+  background: white!important;
 }
