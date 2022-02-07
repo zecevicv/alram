@@ -303,4 +303,8 @@ span.ywcars_current_status {
     width: 90%;
     border-radius: 2vw;
   }
+
+  .ywcars_refund_info_block_title {
+    margin-bottom: 2vw!important;
+  }
 }
