@@ -342,3 +342,7 @@ div.pp_overlay {
 div.pp_pic_holder {
   width: 33.5%!important;
 }
+
+.pp_content {
+  width: auto!important;
+}
