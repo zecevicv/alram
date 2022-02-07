@@ -393,3 +393,11 @@ div.pp_woocommerce .pp_close {
   width: 1vw!important;
   height: 1vw!important;
 }
+
+div.pp_woocommerce .pp_close:before {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.651' height='20.649' viewBox='0 0 20.651 20.649'%3E%3Cg id='cancel' transform='translate(0.551 0.549)'%3E%3Cpath id='Path_37' data-name='Path 37' d='M10.223,9.773,19.458.538a.315.315,0,1,0-.446-.446L9.777,9.327.542.092A.315.315,0,0,0,.1.538L9.331,9.773.1,19.008a.315.315,0,1,0,.438.454l.008-.008,9.235-9.235,9.235,9.235a.315.315,0,0,0,.446-.446Z' transform='translate(0 0)' stroke='%23000' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
