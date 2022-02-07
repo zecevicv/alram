@@ -351,3 +351,11 @@ div.pp_pic_holder {
   text-align: right;
   font-size: 1.97rem;
 }
+
+.pp_content_container .pp_left {
+  padding-left: 2.6vw;
+}
+
+.pp_content_container .pp_right {
+  padding-right: 2.6vw;
+}
