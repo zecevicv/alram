@@ -235,3 +235,7 @@ span.ywcars_current_status {
   text-decoration: none;
   border-radius: 500px;
 }
+
+.ywcars_line_separator {
+  margin-bottom: 2.34vw;
+}
