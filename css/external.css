@@ -186,7 +186,6 @@ body textarea {
 .ywcars_refund_info_block_title {
   margin-bottom: .5vw!important;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
