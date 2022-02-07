@@ -4120,3 +4120,97 @@ body {
     height: 15.73vw;
   }
 }
+
+/* #Order Tracker
+================================================== */
+.order-tracker ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.order-tracker ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  color: #b1b1b1;
+}
+
+.order-tracker ul li.active {
+  color: black;
+}
+
+.order-tracker ul li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: .98vw;
+  right: 50%;
+  height: 1px;
+  width: 9vw;
+  background-color: #b1b1b1;
+  z-index: -1;
+}
+
+.order-tracker ul li.active::after {
+  background-color: black;
+}
+
+.order-tracker ul li:not(:last-child) {
+  margin-left: 3.125vw;
+}
+
+.order-tracker .circle {
+  width: 1.98vw;
+  height: 1.98vw;
+  border-radius: 50%;
+  border: 1px solid #b1b1b1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: .3vw;
+}
+
+.order-tracker .circle svg {
+  width: .78vw;
+}
+
+.order-tracker li.active .circle {
+  background-color: black;
+}
+
+.order-tracker li.active .circle svg * {
+  fill: white;
+}
+
+.order-tracker li .circle svg * {
+  fill: #b1b1b1;
+}
+
+@media (max-width: 1023.98px) {
+  .order-tracker ul li:not(:last-child)::after {
+    top: 4.665vw;
+    width: 23vw;
+  }
+  
+  .order-tracker ul li:not(:last-child) {
+    margin-left: 3.125vw;
+  }
+  
+  .order-tracker .circle {
+    width: 9.33vw;
+    height: 9.33vw;
+    margin-bottom: .3vw;
+  }
+  
+  .order-tracker .circle svg {
+    width: 3.6vw;
+  }
+
+  .order-tracker p {
+    line-height: 1.2;
+  }
+}
