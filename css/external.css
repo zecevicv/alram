@@ -200,4 +200,6 @@ body textarea {
   border: none;
   padding: 1.5vw 1.3vw 2.5vw 1.3vw;
   width: 100%;
+  border-radius: .78vw;
+  box-shadow: 0 6px 12px rgba(0,0,0,.1);
 }
