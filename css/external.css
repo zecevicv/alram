@@ -271,5 +271,11 @@ span.ywcars_current_status {
 }
 
 @media (max-width: 1023.98px) {
+  table.ywcars_refund_info {
+    border-radius: 2vw;
+  }
   
+  table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
+    font-size: 3.46vw!important;
+  }
 }
