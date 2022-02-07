@@ -282,4 +282,8 @@ span.ywcars_current_status {
   .ywcars_refund_info_minor_cell a {
     height: 9.5vw;
   }
+
+  table.ywcars_refund_info td {
+    display: block;
+  }
 }
