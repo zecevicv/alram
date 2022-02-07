@@ -172,6 +172,7 @@ table.ywcars_refund_info {
   border-radius: .78vw;
 }
 
-table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
+table.ywcars_refund_info tbody, 
+table.ywcars_refund_info td {
   border: none!important;
 }
