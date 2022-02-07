@@ -265,3 +265,7 @@ span.ywcars_current_status {
 .ywcars_attachments_title {
   font-size: .94vw!important;
 }
+
+.ywcars_message_shop_manager .ywcars_attachments_line_separator {
+  margin-left: 0!important;
+}
