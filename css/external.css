@@ -217,3 +217,16 @@ span.ywcars_current_status {
   border-radius: 1.3vw!important;
   padding: .5vw 2vw!important;
 }
+
+.ywcars_refund_info_minor_cell a {
+  height: 1.5vw;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0 1rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
