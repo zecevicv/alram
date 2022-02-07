@@ -189,3 +189,15 @@ body textarea {
   justify-content: space-between;
   align-items: center;
 }
+
+.ywcars_message_shop_manager {
+  margin-left: 0;
+}
+
+.ywcars_refund_info_message_box {
+  background-color: white;
+  margin-bottom: 1.3vw;
+  border: none;
+  padding: 1.5vw 1.3vw 2.5vw 1.3vw;
+  width: 100%;
+}
