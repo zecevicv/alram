@@ -346,6 +346,10 @@ div.pp_overlay {
   background: white!important;
 }
 
+div.pp_pic_holder {
+  width: 33.5%!important;
+}
+
 .pp_content {
   width: auto!important;
 }
@@ -398,8 +402,9 @@ div.pp_woocommerce .pp_close:before {
   background-size: contain;
 }
 
-@media (min-width: 1024px) {
-  div.pp_pic_holder {
-    width: 33.5%!important;
+@media (max-width: 1023.98px) {
+  div.pp_woocommerce .pp_content_container {
+    border-radius: 2vw!important;
+    padding: 0!important;
   }
 }
