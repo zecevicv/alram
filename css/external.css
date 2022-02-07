@@ -338,3 +338,7 @@ span.ywcars_current_status {
 div.pp_overlay {
   background: white!important;
 }
+
+div.pp_pic_holder {
+  width: 33.5%!important;
+}
