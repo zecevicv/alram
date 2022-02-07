@@ -251,3 +251,8 @@ span.ywcars_current_status {
 .ywcars_refund_info_message_author {
   font-size: .94vw!important;
 }
+
+.ywcars_refund_info_message_date {
+  float: none!important;
+  font-size: .73vw;
+}
