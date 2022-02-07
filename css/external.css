@@ -346,3 +346,8 @@ div.pp_pic_holder {
 .pp_content {
   width: auto!important;
 }
+
+.pp_content h2 {
+  text-align: right;
+  font-size: 1.97rem;
+}
