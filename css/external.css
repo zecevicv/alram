@@ -294,4 +294,8 @@ span.ywcars_current_status {
     margin-bottom: 2vw!important;
     display: inline-block!important;
   }
+
+  td.ywcars_refund_info_minor_cell {
+    padding: 0!important;
+  }
 }
