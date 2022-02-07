@@ -422,4 +422,12 @@ div.pp_woocommerce .pp_close:before {
   .pp_content_container #ywcars_submit_button {
     height: 9.5vw;
   }
+
+  .pp_content_container .pp_left {
+    padding-left: 3.6vw!important;
+  }
+
+  .pp_content_container .pp_right {
+    padding-right: 3.6vw!important;
+  }
 }
