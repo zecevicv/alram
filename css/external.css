@@ -407,4 +407,11 @@ div.pp_woocommerce .pp_close:before {
     border-radius: 2vw!important;
     padding: 0!important;
   }
+
+  div.pp_woocommerce .pp_close {
+    top: 4vw!important;
+    left: 4vw!important;
+    width: 4vw!important;
+    height: 4vw!important;
+  }
 }
