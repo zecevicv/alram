@@ -195,11 +195,11 @@ body textarea {
 }
 
 .ywcars_refund_info_message_box {
-  background-color: white;
-  margin-bottom: 1.3vw;
-  border: none;
-  padding: 1.5vw 1.3vw 2.5vw 1.3vw;
-  width: 100%;
+  background-color: white!important;
+  margin-bottom: 1.3vw!important;
+  border: none!important;
+  padding: 1.5vw 1.3vw 2.5vw 1.3vw!important;
+  width: 100%!important;
   border-radius: .78vw;
   box-shadow: 0 6px 12px rgba(0,0,0,.1);
 }
