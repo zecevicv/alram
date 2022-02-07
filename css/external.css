@@ -207,3 +207,16 @@ body textarea {
 td.ywcars_refund_info_minor_cell {
   text-align: left!important;
 }
+
+span.ywcars_current_status.ywcars-new {
+  background-color: #F5F5F5;
+}
+
+span.ywcars_current_status {
+  border-radius: 1.3vw;
+  padding: .5vw 2vw;
+}
+
+span.ywcars_current_status span {
+  display: block;
+}
