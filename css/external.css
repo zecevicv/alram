@@ -289,5 +289,8 @@ span.ywcars_current_status {
 
   span.ywcars_current_status.ywcars-new {
     float: none!important;
+    border-radius: 500px!important;
+    padding: 1vw 2vw!important;
+    margin-bottom: 2vw!important;
   }
 }
