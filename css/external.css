@@ -386,10 +386,10 @@ div.pp_pic_holder {
 }
 
 div.pp_woocommerce .pp_close {
-  background-color: white;
-  top: 1.3vw;
-  right: auto;
-  left: 1.3vw;
-  width: 1vw;
-  height: 1vw;
+  background-color: white!important;
+  top: 1.3vw!important;
+  right: auto!important;
+  left: 1.3vw!important;
+  width: 1vw!important;
+  height: 1vw!important;
 }
