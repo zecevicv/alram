@@ -172,5 +172,5 @@ table.ywcars_refund_info {
 }
 
 table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
-  border: none;
+  border: none!important;
 }
