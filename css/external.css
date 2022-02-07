@@ -292,5 +292,6 @@ span.ywcars_current_status {
     border-radius: 500px!important;
     padding: 1vw 2vw!important;
     margin-bottom: 2vw!important;
+    display: inline-block!important;
   }
 }
