@@ -239,3 +239,15 @@ span.ywcars_current_status {
 .ywcars_line_separator {
   margin-bottom: 2.34vw!important;
 }
+
+.ywcars_message_shop_manager .ywcars_refund_info_message_author {
+  background-color: transparent!important;
+  color: black!important;
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-left: 0!important;
+}
+
+.ywcars_refund_info_message_author {
+  font-size: .94vw!important;
+}
