@@ -87,16 +87,6 @@
   background-color: white!important;
 }
 
-table.ywcars_refund_info {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid darkgrey;
-}
-
-table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
-  border: none;
-}
-
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
@@ -172,4 +162,15 @@ table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+/* Refund Requests */
+table.ywcars_refund_info {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+}
+
+table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
+  border: none;
 }
