@@ -414,4 +414,12 @@ div.pp_woocommerce .pp_close:before {
     width: 4vw!important;
     height: 4vw!important;
   }
+
+  .pp_content h2 {
+    margin-top: 14vw;
+  } 
+
+  .pp_content_container #ywcars_submit_button {
+    height: 9.5vw;
+  }
 }
