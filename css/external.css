@@ -89,6 +89,12 @@
 
 table.ywcars_refund_info {
   width: 100%;
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+}
+
+table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
+  border: none;
 }
 
 @media (max-width: 1023.98px) {
