@@ -278,4 +278,8 @@ span.ywcars_current_status {
   table.ywcars_refund_info tbody, table.ywcars_refund_info tr, table.ywcars_refund_info td {
     font-size: 3.46vw!important;
   }
+
+  .ywcars_refund_info_minor_cell a {
+    height: 9.5vw;
+  }
 }
