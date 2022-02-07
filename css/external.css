@@ -210,6 +210,7 @@ td.ywcars_refund_info_minor_cell {
 
 span.ywcars_current_status.ywcars-new {
   background-color: #F5F5F5!important;
+  margin-left: 20vw;
 }
 
 span.ywcars_current_status {
