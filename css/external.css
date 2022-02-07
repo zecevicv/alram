@@ -336,9 +336,9 @@ span.ywcars_current_status {
 
 /* Popup */
 div.pp_woocommerce .pp_content_container {
-  border-radius: 1.3vw;
-  box-shadow: none;
-  padding: 1.8vw 2.6vw 2.6vw 2.6vw;
+  border-radius: 1.3vw!important;
+  box-shadow: none!important;
+  padding: 1.8vw 2.6vw 2.6vw 2.6vw!important;
 }
 
 div.pp_overlay {
