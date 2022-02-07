@@ -307,4 +307,22 @@ span.ywcars_current_status {
   .ywcars_refund_info_block_title {
     margin-bottom: 2vw!important;
   }
+
+  .ywcars_refund_info_message_author {
+    font-size: 3.46vw!important;
+  }
+  
+  .ywcars_refund_info_message_date {
+    float: left!important;
+    font-size: 3.46vw!important;
+  }
+  
+  .ywcars_refund_info_message_body {
+    font-size: 3.46vw!important;
+    margin-top: .5vw!important;
+  }
+  
+  .ywcars_attachments_title {
+    font-size: 3.46vw!important;
+  }
 }
