@@ -87,6 +87,10 @@
   background-color: white!important;
 }
 
+table.ywcars_refund_info {
+  width: 100%;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce table.my_account_orders {
     font-size: 3.2vw;
