@@ -407,6 +407,10 @@ div.pp_woocommerce .pp_close:before {
   background-size: contain;
 }
 
+#pp_full_res .pp_inline {
+  text-align: right!important;
+}
+
 @media (max-width: 1023.98px) {
   div.pp_woocommerce .pp_content_container {
     border-radius: 2vw!important;
