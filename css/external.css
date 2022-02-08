@@ -35,8 +35,8 @@
   margin: 0.9375rem 0!important;
 }
 
-.woocommerce-account .woocommerce .ywcars_button_refund[disabled="true"] {
-  background-color: #ebe9eb;
+.woocommerce-account .woocommerce .ywcars_button_refund:disabled {
+  background-color: #ebe9eb!important;
 }
 
 .woocommerce-account .woocommerce .ywcars_button_refund_container {
