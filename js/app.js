@@ -314,3 +314,17 @@ if (popupBackdrops) {
     })
   });
 }
+
+/* #Product Purchase Guide
+  ======================================================= */
+if (document.querySelector('.product-purchase-guide .swiper')) {
+  new Swiper(".product-purchase-guide .swiper", {
+    navigation: {
+      nextEl: ".product-purchase-guide .swiper-button-next",
+      prevEl: ".product-purchase-guide .swiper-button-prev",
+    },
+    pagination: {
+      el: ".product-purchase-guide .swiper-pagination",
+    },
+  });
+}
